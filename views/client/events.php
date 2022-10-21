@@ -1,5 +1,5 @@
 <?php
-require_once('../../database/functions.php');
+// require_once('../../database/functions.php');
 if (isset($_GET['page'])) {
     $page=$_GET['page'];
 } else {
