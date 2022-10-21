@@ -1,5 +1,6 @@
 <?php
-require_once('../../database/functions.php');
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+require_once"$root/m-tickets/database/functions.php";
 $categories=getImages();
 $current_month=date("F", strtotime('m'));
 $current_year=date("Y");
@@ -17,7 +18,7 @@ $populars=getPopular();
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 <!-- CSS -->
-<link rel="stylesheet" href="assets/css/home.css">
+<link rel="stylesheet" href="/m-tickets/assets/css/home.css">
 <?php
     $inactive = 1800; //30 minutes in seconds...
     ini_set('session.gc_maxlifetime', $inactive); // set the session max lifetime to 2 hours
