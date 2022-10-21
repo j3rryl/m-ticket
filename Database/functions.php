@@ -1,6 +1,6 @@
 <?php
 // require_once(realpath(dirname(__FILE__) . '/../Database/database.php'));
-require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/m-tickets/Database/database.php');
+include('../../database/functions.php');
 
 // require_once('database.php');
 
