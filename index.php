@@ -9,9 +9,12 @@
     ?>
 
 <!-- Body Page -->
-<div class="ajax-page">
+<!-- <div class="ajax-page">
 
-</div>
+</div> -->
+<?php
+    include('views/client/home.php');
+  ?>
 
 <!-- Footer -->
 <?php
