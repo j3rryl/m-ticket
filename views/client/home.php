@@ -1,7 +1,7 @@
 <?php
 // require_once(realpath(dirname(__FILE__) . '/../../database/functions.php'));
-require dirname(__DIR__)."../../database/functions.php";
-
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+include "$root/m-tickets/database/functions.php";
 $categories=getImages();
 $current_month=date("F", strtotime('m'));
 $current_year=date("Y");
