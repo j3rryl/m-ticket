@@ -1,5 +1,9 @@
 <?php
-require_once('database.php');
+// require_once(realpath(dirname(__FILE__) . '/../Database/database.php'));
+require_once(realpath($_SERVER["DOCUMENT_ROOT"]) .'/m-tickets/Database/database.php');
+
+// require_once('database.php');
+
 function getPayments()
 {
     global $conn;

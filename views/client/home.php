@@ -202,5 +202,5 @@ $populars=getPopular();
     </div>
 
 </div>
-<script src="/m-ticket/assets/js/client/slider.js"></script>
-<script src="/m-ticket/assets/js/client/home.js"></script>
+<script src="/m-tickets/assets/js/client/slider.js"></script>
+<script src="/m-tickets/assets/js/client/home.js"></script>

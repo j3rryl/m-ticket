@@ -1,8 +1,8 @@
 <?php
 $localhost="localhost";
 $username="root";
-$password="";
-$db_name="m_ticketi";
+$password="root";
+$db_name="m_tickets";
 
 //Connect
 $conn=mysqli_connect($localhost, $username, $password, $db_name);
