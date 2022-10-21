@@ -2,7 +2,7 @@ $(document).ready(function () {
   function load_data() {
     $.ajax({
       type: "GET",
-      url: "/views/client/home.php",
+      url: "/m-tickets/views/client/home.php",
       success: function (data) {
         $(".ajax-page").html(data);
       },
